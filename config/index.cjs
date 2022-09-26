@@ -63,9 +63,9 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '测试号',
+      name: '小曲宝',
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'od7AL6yCX_43r5l4WrdQkiCjrDbM',
+      id: 'od7AL66F1bcBfYiJXAqer2wfwKVc',
       // 你想对他发送的模板消息的模板ID
       useTemplateId: 'hGH9Hd5Z34L9ZEsdxuG-KWPM1wdYh0m1fYZzy4HsEHE',
       // 所在省份
@@ -77,22 +77,22 @@ const USER_CONFIG = {
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: 'http://astro.sina.com.cn/fate_day_Scorpio/',
+      openUrl: 'http://astro.sina.com.cn/fate_day_Libra/',
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '测试刘-阴历', year: '1988', date: '10-05',
+          type: '*生日', name: '小曲农历生日', year: '1998', date: '08-20',
         },
         {
           type: '节日', name: '一周年纪念日', year: '2021', date: '11-27',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '测试刘-阳历', year: '1988', date: '11-13',
+          type: '生日', name: '小曲阳历生日', year: '1998', date: '10-12',
         },
         {
-          type: '节日', name: '被搭讪纪念日', year: '2021', date: '09-01',
+          type: '节日', name: '新年', year: '2023', date: '01-01',
         }
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
@@ -167,14 +167,14 @@ const USER_CONFIG = {
       },
     },
     {
-      name: '老婆1',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: 'https://wangxinleo.cn',
+      name: '测试',
+      id: 'od7AL6yCX_43r5l4WrdQkiCjrDbM',
+      useTemplateId: 'hGH9Hd5Z34L9ZEsdxuG-KWPM1wdYh0m1fYZzy4HsEHE',
+      province: '吉林',
+      city: '通化',
+      horoscopeDate: '10-12',
+      horoscopeDateType: '今日',
+      openUrl: 'http://astro.sina.com.cn/fate_day_Libra/',
       festivals: [],
       customizedDateList: [],
       courseSchedule: null
@@ -214,7 +214,7 @@ const USER_CONFIG = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '',
+  CALLBACK_TEMPLATE_ID: 'hGH9Hd5Z34L9ZEsdxuG-KWPM1wdYh0m1fYZzy4HsEHE',
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -222,7 +222,7 @@ const USER_CONFIG = {
       // 一般都填自己
       name: '自己',
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'od7AL6yCX_43r5l4WrdQkiCjrDbM',
     }
     // 你可以不断按格式往下增加
     // ...
