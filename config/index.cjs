@@ -173,7 +173,7 @@ const USER_CONFIG = {
       city: '通化',
       horoscopeDate: '10-12',
       horoscopeDateType: '今日',
-      openUrl: 'http://astro.sina.com.cn/fate_day_Libra/',
+      openUrl: 'http://astro.sina.com.cn/fate_day_Scorpio/',
       festivals: [ {
           type: '生日', name: '小曲宝生日', year: '1998', date: '10-12',
         },
@@ -190,7 +190,8 @@ const USER_CONFIG = {
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2021-11-27' },],
+        {keyword: 'love_day', date: '2021-11-27' },
+      ],
       customizedDateList: [],
       courseSchedule: null
     },
