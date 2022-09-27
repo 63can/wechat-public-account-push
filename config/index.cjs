@@ -29,11 +29,11 @@ const USER_CONFIG = {
 
     /** 每日N句 */
     // 金山每日一句
-    CIBA: true,
+    CIBA: false,
     // 每日一言
     oneTalk: false,
     // 土味情话(彩虹屁)
-    earthyLoveWords: false,
+    earthyLoveWords: true,
     // 朋友圈文案
     momentCopyrighting: false,
     // 毒鸡汤
@@ -97,7 +97,7 @@ const USER_CONFIG = {
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2021-11-27' },
+        { keyword: 'love_day', date: '2021-11-27'},
       ],
       // 课程表相关配置
       // 如果courseSchedule不存在或者为空（null）则认为没有课程
@@ -187,38 +187,33 @@ const USER_CONFIG = {
           type: '节日', name: '新年', year: '2023', date: '01-01',
         }
       ],
-      // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
-      customizedDateList: [
-        // 在一起的日子
-        {keyword: 'love_day', date: '2021-11-27' },
+      customizedDateList: [// 在一起的日子
+    { keyword: 'love_day', date: '2021-11-27' },
+        // 开始讲话的日子
+    { keyword: 'talk_day', date: '2021-11-22' },
+         // 第一次见面的日子
+    { keyword: 'doi_day', date: '2021-12-25' },
+    // ...
+  ],
+      courseSchedule: null
+    },
+    {
+      name: '测试号3',
+      id: 'od7AL63hQrygyemsRLHAwrh_Hjo0',
+      useTemplateId: 'hGH9Hd5Z34L9ZEsdxuG-KWPM1wdYh0m1fYZzy4HsEHE',
+      province: '北京',
+      city: '北京',
+      horoscopeDate: '10-15',
+      horoscopeDateType: '',
+      openUrl: 'https://wangxinleo.cn',
+      festivals: [今日],
+      customizedDateList: [// 在一起的日子
+    { keyword: 'love_day', date: '2021-11-27' },
+        // 开始讲话的日子
+    { keyword: 'talk_day', date: '2021-11-22' },
+         // 第一次见面的日子
+    { keyword: 'doi_day', date: '2021-12-25' },
       ],
-      customizedDateList: [],
-      courseSchedule: null
-    },
-    {
-      name: '老婆2',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: 'https://wangxinleo.cn',
-      festivals: [],
-      customizedDateList: [],
-      courseSchedule: null
-    },
-    {
-      name: '老婆3',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: 'https://wangxinleo.cn',
-      festivals: [],
-      customizedDateList: [],
       courseSchedule: null
     }
     // 你可以不断按格式往下增加
@@ -230,15 +225,15 @@ const USER_CONFIG = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: 'hGH9Hd5Z34L9ZEsdxuG-KWPM1wdYh0m1fYZzy4HsEHE',
+  CALLBACK_TEMPLATE_ID: '',
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
     {
       // 一般都填自己
-      name: '自己',
+      name: '',
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'od7AL6yCX_43r5l4WrdQkiCjrDbM',
+      id: '',
     }
     // 你可以不断按格式往下增加
     // ...
