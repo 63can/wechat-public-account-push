@@ -67,7 +67,7 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'od7AL66F1bcBfYiJXAqer2wfwKVc',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: 'fPe6z8FOeE3itv2glDLrPHvm36q9ifJMKJfX8-XgnZw',
+      useTemplateId: 'K6jcV8KqiRkuPpjC1pMTYJZIfmRWQhihGO3vrtdDAYw',
       // 所在省份
       province: '吉林',
       // 所在城市
@@ -172,7 +172,7 @@ const USER_CONFIG = {
     {
       name: '测试',
       id: 'od7AL6yCX_43r5l4WrdQkiCjrDbM',
-      useTemplateId: 'fPe6z8FOeE3itv2glDLrPHvm36q9ifJMKJfX8-XgnZw',
+      useTemplateId: 'K6jcV8KqiRkuPpjC1pMTYJZIfmRWQhihGO3vrtdDAYw',
       province: '吉林',
       city: '通化',
       horoscopeDate: '10-12',
@@ -204,7 +204,7 @@ const USER_CONFIG = {
     {
       name: '测试号3',
       id: 'od7AL63hQrygyemsRLHAwrh_Hjo0',
-      useTemplateId: 'fPe6z8FOeE3itv2glDLrPHvm36q9ifJMKJfX8-XgnZw',
+      useTemplateId: 'K6jcV8KqiRkuPpjC1pMTYJZIfmRWQhihGO3vrtdDAYw',
       province: '北京',
       city: '北京',
       horoscopeDate: '10-15',
