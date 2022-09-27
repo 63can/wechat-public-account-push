@@ -67,7 +67,7 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'od7AL66F1bcBfYiJXAqer2wfwKVc',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: 'hGH9Hd5Z34L9ZEsdxuG-KWPM1wdYh0m1fYZzy4HsEHE',
+      useTemplateId: 'fPe6z8FOeE3itv2glDLrPHvm36q9ifJMKJfX8-XgnZw',
       // 所在省份
       province: '吉林',
       // 所在城市
@@ -98,6 +98,10 @@ const USER_CONFIG = {
       customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2021-11-27'},
+         // 第一次见面的日子
+        { keyword: 'talk_day', date: '2021-11-22' },
+         // 第一次见面的日子
+    { keyword: 'doi_day', date: '2021-12-25' }
       ],
       // 课程表相关配置
       // 如果courseSchedule不存在或者为空（null）则认为没有课程
@@ -168,7 +172,7 @@ const USER_CONFIG = {
     {
       name: '测试',
       id: 'od7AL6yCX_43r5l4WrdQkiCjrDbM',
-      useTemplateId: 'hGH9Hd5Z34L9ZEsdxuG-KWPM1wdYh0m1fYZzy4HsEHE',
+      useTemplateId: 'fPe6z8FOeE3itv2glDLrPHvm36q9ifJMKJfX8-XgnZw',
       province: '吉林',
       city: '通化',
       horoscopeDate: '10-12',
@@ -200,7 +204,7 @@ const USER_CONFIG = {
     {
       name: '测试号3',
       id: 'od7AL63hQrygyemsRLHAwrh_Hjo0',
-      useTemplateId: 'hGH9Hd5Z34L9ZEsdxuG-KWPM1wdYh0m1fYZzy4HsEHE',
+      useTemplateId: 'fPe6z8FOeE3itv2glDLrPHvm36q9ifJMKJfX8-XgnZw',
       province: '北京',
       city: '北京',
       horoscopeDate: '10-15',
