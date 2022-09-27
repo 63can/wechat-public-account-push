@@ -206,7 +206,19 @@ const USER_CONFIG = {
       horoscopeDate: '10-15',
       horoscopeDateType: '',
       openUrl: 'https://wangxinleo.cn',
-      festivals: [今日],
+      festivals:  [ {
+          type: '生日', name: '小曲宝生日', year: '1998', date: '10-12',
+        },
+         {
+          type: '生日', name: '小火山生日', year: '1988', date: '11-13',
+        },
+        {
+          type: '节日', name: '一周年纪念日', year: '2021', date: '11-27',
+        },
+        {
+          type: '节日', name: '新年', year: '2023', date: '01-01',
+        }
+      ],
       customizedDateList: [// 在一起的日子
     { keyword: 'love_day', date: '2021-11-27' },
         // 开始讲话的日子
